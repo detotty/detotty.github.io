@@ -2,13 +2,13 @@ importScripts("https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js");
 
 firebase.initializeApp({
-    apiKey: "AIzaSyDpyoOva_s47LmLs2A9DTj01xbrrAtRvwI",
-    authDomain: "sobo-apps.firebaseapp.com",
-    projectId: "sobo-apps",
-    storageBucket: "sobo-apps.appspot.com",
-    messagingSenderId: "469480833254",
-    appId: "1:469480833254:web:fe120dd90d9ceb1d507b27",
-    measurementId: "G-5KPQVYX46X"
+  apiKey: "AIzaSyBEIX5-TxHg9QFBLPb56WVZpGM050HesHk",
+  authDomain: "wonosobo-stores.firebaseapp.com",
+  projectId: "wonosobo-stores",
+  storageBucket: "wonosobo-stores.appspot.com",
+  messagingSenderId: "17853634630",
+  appId: "1:17853634630:web:2b243543b6df123c2fd247",
+  measurementId: "G-DFG7QGJ8LB"
 });
 
 const messaging = firebase.messaging();

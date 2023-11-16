@@ -12,7 +12,7 @@
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
   <base href="/">
-  <meta name="google-signin-client_id" content="91512362920-v01r4u44277lqq5agtns7npjra8g0c06.apps.googleusercontent.com">
+  <meta name="google-signin-client_id" content="YOUR_AUTH_CLIENT_ID">
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="SoboFresh.">
@@ -21,23 +21,23 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="flutter_grocery">
-
-  <title>Sobo Fresh</title>
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" type="text/css" href="style.css">
-
   <link rel="apple-touch-icon" href="icons/app_logo.png">
 
   <!-- Favicon -->
 
   <link rel="icon" type="image/png" href="favicon.png"/>
 
+
+  <title>SoboFresh</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
   <style>.grecaptcha-badge { visibility: hidden;} </style>
 </head>
 <body>
 
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiEXtudk703y0B8gelWxOr6wiUBteITj0&callback=Function.prototype"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_MAP_KEY_HERE&callback=Function.prototype"></script>
 
 
 <script>
@@ -46,7 +46,7 @@
         navigator.serviceWorker.register("/firebase-messaging-sw.js");
       });
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2641839938');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=159584080');
       });
     }
   </script>
@@ -92,20 +92,19 @@
 
 <script>
     const firebaseConfig = {
-    apiKey: "AIzaSyDpyoOva_s47LmLs2A9DTj01xbrrAtRvwI",
-    authDomain: "sobo-apps.firebaseapp.com",
-    projectId: "sobo-apps",
-    storageBucket: "sobo-apps.appspot.com",
-    messagingSenderId: "469480833254",
-    appId: "1:469480833254:web:fe120dd90d9ceb1d507b27",
-    measurementId: "G-5KPQVYX46X"
-  };
+      apiKey: "AIzaSyBEIX5-TxHg9QFBLPb56WVZpGM050HesHk",
+  authDomain: "wonosobo-stores.firebaseapp.com",
+  projectId: "wonosobo-stores",
+  storageBucket: "wonosobo-stores.appspot.com",
+  messagingSenderId: "17853634630",
+  appId: "1:17853634630:web:2b243543b6df123c2fd247",
+  measurementId: "G-DFG7QGJ8LB"
+    };
 
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
   </script>
 
 <script src="main.dart.js?version=7.1" type="application/javascript"></script>
-
 </body>
 </html>
