@@ -1,11 +1,11 @@
 {
-    "name": "flutter_grocery",
-    "short_name": "flutter_grocery",
+    "name": "Sobo Fresh",
+    "short_name": "sobofresh",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Toko grosiran lokal.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
